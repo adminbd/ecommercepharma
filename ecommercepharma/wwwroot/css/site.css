@@ -1,0 +1,142 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+   background:url(../images/white_leather.png) repeat 0 0;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.alignR {
+   text-align: right;
+}
+
+.homCar {
+    overflow: hidden;
+}
+#myCarousel.homCar .carousel-item img {
+    width: 100%;
+    max-height: 400px
+}
+
+homCar h4 {
+    background-color: #eb4800;
+    color: #fff;
+    padding: 11px 4px;
+    font-size: 26px;
+    text-transform: uppercase;
+    float: left;
+    width: auto;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+    opacity: 0.8;
+}
+
+.homCar p span {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 10px;
+    line-height: 30px;
+    font-size: 28px;
+    float: left;
+    width: auto;
+    opacity: 0.8;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+}
+
+
+.carousel-control {
+    border: 0px;
+    border-radius: 2px
+}
+
+.carousel-control, .carousel-control:hover {
+    background: rgba(248, 118, 16, 1);
+    height: 43px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.carousel-control {
+    top: 50%;
+}
+
+    .carousel-control.left {
+        left: -15600px;
+    }
+
+    .carousel-control.right {
+        right: -15600px;
+    }
+
+.carousel:hover .carousel-control.right {
+    right: 8px;
+    left: auto;
+}
+
+.carousel:hover .carousel-control.left {
+    left: 8px;
+}
